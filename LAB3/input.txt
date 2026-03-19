@@ -1,0 +1,14 @@
+i Beautiful s
+i RESONANCE Beautiful
+i TOUCH RESONANCE
+i FactCheck Lemonade
+d RESONANCE
+d Candy
+p
+d Beautiful
+p
+f TOUCH
+f Lemonade
+d TOUCH
+d TOUCH
+p

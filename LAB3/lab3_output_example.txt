@@ -1,0 +1,14 @@
+Insert Cake successfully!
+Insert BaggyJeans successfully!
+Insert Lucky successfully!
+Insertion (MyYouth) Failed! Cannot find the location to be inserted.
+Delete Cake successfully!
+Insert Perfume successfully!
+Deletion Failed! LittleLight is not in the list.
+Error: Cannot find Cake.
+Lucky is the first song!
+Previous song of Perfume: Lucky
+
+[Playlist]
+Lucky -> Perfume -> BaggyJeans
+
