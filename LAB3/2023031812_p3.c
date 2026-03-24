@@ -61,7 +61,7 @@ void Delete(ElementType X, List L){
 
         P = FindPrevious(X, L);
 
-        if(P==NULL || P->next == NULL){
+        if(P==NULL || P->next == NULL){ //X가 없는 경우의 FindPrevious 의 p->next가 NULL
                 printf("Deletion Failed! %s is not in the list.\n",X);
                 return;
         }
@@ -128,7 +128,7 @@ int main(int argc, char *argv[]) {
                 switch(command){
                         case 'i': //insert
                                 fscanf(fp, " %s %s", song, prev_song);
-                                tmp = strcmp(prev_song, "s") == 0 ? playlist : Find(prev_song, playlist);
+                                tmp = strcmp(prev_song, "s") == 0 ? playlist : Find(prev_song, playlist); //"s" == header
                                 if (tmp == NULL){
                                         printf("Insertion (%s) Failed! Cannot find the location to be inserted.\n", song);
                                 }
