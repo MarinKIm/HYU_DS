@@ -1,0 +1,14 @@
+c 3
+e Alice
+e Bob
+e Charlie
+e Jhon
+p
+d
+e Diana
+d
+p
+d
+d
+d
+p
