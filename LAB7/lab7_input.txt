@@ -1,0 +1,21 @@
+i 10
+i 25
+i 3
+i 5
+i 15
+i 10
+mi
+ma
+pr
+pi
+po
+f 30
+f 5
+h
+d 10
+h
+po
+d 20
+h
+pr
+
