@@ -75,7 +75,7 @@ int ComputeHeight(Tree tree, int index){
     if(index > tree->numOfNode){
         return 0;
     }
-    int result = ComputeHeight(tree, index*2);
+    int result = ComputeHeight(tree, index*2); //array implementation으로 complete binary tree
     
     return result +1 ;
     

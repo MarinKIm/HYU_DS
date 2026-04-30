@@ -56,21 +56,21 @@ Tree findMax(Tree root){
 }                                                
 
 Tree deleteNode(Tree root, int key){
-    static int printed = 0;
-    static int callDepth = 0;
+    static int pp = 0;
+    static int cd = 0;
     Tree tmp;
 
-    if(callDepth == 0){
-        printed = 0;   // 🔥 최초 호출에서 초기화
+    if(cd == 0){
+        pp = 0;   
     }
-    callDepth++;
+    cd++;
 
     if(root == NULL){
-        if(!printed){
+        if(!pp){
             printf("Deletion Error: %d is not in the tree\n", key);
-            printed = 1;
+            pp = 1;
         }
-        callDepth--;
+        cd--;
         return NULL;
     }
 
@@ -81,9 +81,9 @@ Tree deleteNode(Tree root, int key){
         root->right = deleteNode(root->right, key);
     }
     else{
-        if(!printed){
+        if(!pp){
             printf("Delete %d\n", key);  
-            printed = 1;
+            pp = 1;
         }
 
         if(root->left && root->right){
@@ -104,7 +104,7 @@ Tree deleteNode(Tree root, int key){
         }
     }
 
-    callDepth--;   
+    cd--;   
     return root;
 }
 
